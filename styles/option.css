@@ -1,0 +1,23 @@
+.logout{
+    float: right;
+    width: 155px; 
+    height: 60px; 
+    background: #F0F0F3; 
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.26); 
+    text-align: center;
+    color: #7ACCED;
+    font-size: 30px;
+    font-family: Abyssinica SIL;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 18px;
+    margin-right: 62px;
+    padding-top: 3px;
+
+    border-radius: 50px;
+    /* border: 1px solid rgba(0, 0, 0, 0.30); */
+    background: var(--nue-white-1, #F0F0F3);
+    box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.26), -10px -10px 15px 0px #FFF;
+
+
+}

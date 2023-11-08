@@ -1,0 +1,133 @@
+body{
+    background-color: #F0F0F3;
+    width: 100%;
+    height: 100%;
+}
+.header{
+
+}
+
+.top_right
+{
+    width: 232px;
+    height: 56px;
+    left: 79px;
+    margin-right: 53px;
+    margin-top: 18px;
+}
+
+.top_left
+{
+    width: 288px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 19px;
+}
+.logo
+{
+    width: 288px;
+    height: 100px;
+    flex-shrink: 0;
+    /* margin-top: 5px; */
+    margin-left: 19px;
+}
+
+/* img {
+    width: 288px;
+    height: 100px;
+    margin-right: 53px;
+    margin-top: 47px;
+   
+} */
+
+button {
+    text-align: center; 
+    color: #7ACCED; 
+    font-size: 33px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    width: 325.50px; 
+    height: 85px;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    margin-top: 1vh;
+    margin-left: 250px;
+    margin-bottom: 71px;
+    /* box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.26); */
+
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: var(--nue-white-1, #F0F0F3);
+    box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.26), -10px -10px 15px 0px #FFF;
+
+}
+
+button:hover{
+    /* border:1px solid rgb(2, 1, 1); */
+    box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+
+}
+
+
+.SOS {
+    /* border: 1px solid black; */
+    width: 232px;
+    height: 56px;
+    left: 79px;
+    /* top: 15px; */
+    margin-right: 53px;
+    margin-top: 18px;
+    /* border-radius: 100px; */
+    font-family: Abyssinica SIL;
+    font-weight: 400;
+    font-size: 35px;
+    color: #F0F0F3;
+    /* background-color:#FF5C8A; */
+    text-align: center;
+    /* box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.26); */
+    float:right;
+    /* margin-right: 70px; */
+
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FF5C8A;
+    box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.26), -10px -10px 15px 0px #FFF;
+}
+
+.SOS:hover{
+    /* border:1px solid rgb(2, 1, 1); */
+    box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.26);
+
+}
+
+.lang
+{
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: var(--nue-white-1, #F0F0F3);
+    box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.26), -10px -10px 15px 0px #FFF;
+
+}
+
+.button :hover{
+    border:5px solid rgb(2, 1, 1);
+    background-color: blue;
+}
+
+.select{
+    font-size: 55px;
+    text-align: center;
+    font-family: Abyssinica SIL; 
+    font-weight: 400;
+    color: #7ACCED;
+}
+
+ul > li {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+

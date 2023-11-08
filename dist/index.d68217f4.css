@@ -1,0 +1,109 @@
+.spiral {
+  transform-origin: center;
+  width: 599px;
+  height: 600px;
+  margin-left: 302px;
+  animation: 2s linear infinite rotate;
+  position: absolute;
+  top: 10.6%;
+  left: 13.4%;
+}
+
+.core {
+  width: 400px;
+  height: 400px;
+  margin-top: 21vh;
+  margin-left: 38vw;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tdiv1 {
+  background: #70bb59;
+  position: absolute;
+  inset: 0;
+}
+
+.tdiv2 {
+  text-align: center;
+  color: #fff;
+  word-wrap: "break-word";
+  font-family: Abyssinica SIL;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+@keyframes expand {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  display: flex;
+}
+
+.image-container, .text-container {
+  animation: 2s ease-out expand;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.fdiv1 {
+  background: linear-gradient(111deg, #fbf3e9 0%, #e9f2ef 30%, #fbeabb82 66%, #e2e8e8 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.fcontainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.fimage-container, .ftext-container {
+  animation: 2s ease-out expand;
+}
+
+.fimage {
+  width: 330px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.fdiv2 {
+  text-align: center;
+  word-wrap: break-word;
+  font-family: Abyssinica SIL;
+  font-size: 68px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.d68217f4.css.map */

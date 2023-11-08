@@ -1,0 +1,136 @@
+
+.spiral{
+  position: absolute;
+  width: 599px;
+  height: 600px;
+  top: 9.6%;
+  left: 10.6%;
+  transform-origin: center;
+  animation: rotate 1s linear infinite;
+  margin-left: 302px;
+
+}
+
+.core{
+  width: 400px;
+  height: 400px;
+  margin-left: 38vw;
+  margin-top: 21vh;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+.tdiv1{
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px; 
+  left: 0px;
+  background: #70BB59;
+  }
+
+.tdiv2{
+  text-align: center; 
+  color: white; 
+  font-size: 60px; 
+  font-family: Abyssinica SIL; 
+  font-weight: 400; 
+  word-wrap: break-word"
+}
+
+@keyframes expand {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+
+}
+
+.image-container,
+.text-container {
+  animation: expand 2s ease-out;
+
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 400px;
+  height: 400px;
+}
+
+.fdiv1{
+  position: absolute;
+  background: linear-gradient(111deg, #FBF3E9 0%, #E9F2EF 30%, rgba(250.94, 234.22, 187.04, 0.51) 66%, #E2E8E8 100%);
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+        
+}
+
+@keyframes expand {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.fcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fimage-container,
+.ftext-container {
+  animation: expand 2s ease-out;
+}
+
+.fimage{
+  width: 330px;
+  height: 330px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.fdiv2{
+  text-align: center; 
+  font-size: 68px; 
+  font-family: Abyssinica SIL; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=/loading.5eda6680.css.map */

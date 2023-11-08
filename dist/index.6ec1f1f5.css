@@ -1,0 +1,71 @@
+.cancel {
+  float: right;
+  text-align: center;
+  color: #7acced;
+  word-wrap: break-word;
+  background: #f0f0f3;
+  background: var(--nue-white-1, #f0f0f3);
+  border: 1px solid #0000004d;
+  border-radius: 50px;
+  flex-shrink: 0;
+  justify-content: center;
+  width: 155px;
+  height: 60px;
+  margin-top: 19px;
+  margin-right: 62px;
+  padding-top: 12px;
+  font-family: Abyssinica SIL;
+  font-size: 30px;
+  font-weight: 400;
+  box-shadow: 12px 12px 10px #00000042, -10px -10px 15px #fff;
+}
+
+.cancel:hover {
+  box-shadow: 14px 14px 12px #00000042;
+}
+
+.classes {
+  flex-wrap: wrap;
+  margin-top: 6vh;
+  display: flex;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  margin-left: 171px;
+}
+
+.text-place {
+  color: #636060;
+  text-align: center;
+  font-family: Abyssinica SIL;
+  font-size: 31.18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.qr {
+  flex-shrink: 0;
+  width: 473px;
+  height: 113px;
+}
+
+.finger {
+  flex-shrink: 0;
+  width: 389px;
+  height: 77px;
+}
+
+.class1 {
+  border-right: 2px solid #636060;
+  margin-left: 171px;
+  padding-right: 118px;
+}
+
+.class2 {
+  margin-left: 128px;
+}
+
+/*# sourceMappingURL=index.6ec1f1f5.css.map */

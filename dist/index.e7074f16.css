@@ -1,0 +1,20 @@
+.logout {
+  float: right;
+  text-align: center;
+  color: #7acced;
+  word-wrap: break-word;
+  background: #f0f0f3;
+  background: var(--nue-white-1, #f0f0f3);
+  border-radius: 50px;
+  width: 155px;
+  height: 60px;
+  margin-top: 18px;
+  margin-right: 62px;
+  padding-top: 3px;
+  font-family: Abyssinica SIL;
+  font-size: 30px;
+  font-weight: 400;
+  box-shadow: 12px 12px 10px #00000042, -10px -10px 15px #fff;
+}
+
+/*# sourceMappingURL=index.e7074f16.css.map */
